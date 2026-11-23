@@ -165,7 +165,6 @@ function Take({ s, allQuestionPreview }) {
           </div>
           <div style={{ display: "flex", gap: ".6rem", justifyContent: "center", flexWrap: "wrap", marginTop: "2rem" }}>
             <Link className="btn btn-g" href="/discover">Explore other surveys</Link>
-            <Link className="btn btn-k" href={`/peek/${s.slug}`}><Eye size={16} /> View results</Link>
           </div>
         </div>
       </div>
@@ -336,7 +335,6 @@ function Take({ s, allQuestionPreview }) {
                 <button className="btn btn-g" onClick={() => openShare(s)}><ArrowUpRight size={17} /> More…</button>
               </div>
               <div style={{ display: "flex", gap: ".6rem", justifyContent: "center", flexWrap: "wrap" }}>
-                <Link className="btn btn-k" href={`/peek/${s.slug}`}><Eye size={17} /> See how others answered</Link>
                 <Link className="btn btn-g" href="/create"><Plus size={17} /> Create your own</Link>
               </div>
             </>
